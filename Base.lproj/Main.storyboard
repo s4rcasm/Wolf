@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Main menu-->
+        <!--Главное меню-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Main menu" id="BYZ-38-t0r" customClass="ViewController" customModule="Wolf" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Главное меню" id="BYZ-38-t0r" customClass="ViewController" customModule="Wolf" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="360" y="431"/>
         </scene>
-        <!--Manikur-->
+        <!--Маникюр-->
         <scene sceneID="olS-kC-QbE">
             <objects>
-                <viewController title="Manikur" id="cS3-GX-heC" customClass="ViewController" customModule="Wolf" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Маникюр" id="cS3-GX-heC" customClass="ViewController" customModule="Wolf" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ng7-YD-PWJ"/>
                         <viewControllerLayoutGuide type="bottom" id="55b-0A-2yr"/>
@@ -39,12 +39,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UpH-Wc-6em" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1043" y="-210"/>
+            <point key="canvasLocation" x="360" y="-222"/>
         </scene>
-        <!--Pedikur-->
+        <!--Педикюр-->
         <scene sceneID="WfE-SU-XRk">
             <objects>
-                <viewController title="Pedikur" id="NxL-QJ-bLE" customClass="ViewController" customModule="Wolf" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Педикюр" id="NxL-QJ-bLE" customClass="ViewController" customModule="Wolf" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zI7-37-EeQ"/>
                         <viewControllerLayoutGuide type="bottom" id="I1R-V4-0hJ"/>
@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="1043" y="431"/>
         </scene>
-        <!--strishki-->
+        <!--Стрижки-->
         <scene sceneID="8Xg-Il-2yH">
             <objects>
-                <viewController title="strishki" id="7H1-Dv-10V" customClass="ViewController" customModule="Wolf" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Стрижки" id="7H1-Dv-10V" customClass="ViewController" customModule="Wolf" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t2U-y0-8ip"/>
                         <viewControllerLayoutGuide type="bottom" id="jXk-wZ-FPi"/>
@@ -75,12 +75,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kfL-xU-2qt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1043" y="1081"/>
+            <point key="canvasLocation" x="360" y="1081"/>
         </scene>
-        <!--stranica zakaza(data&vremya)-->
+        <!--Страница заказа(дата)-->
         <scene sceneID="4AU-1a-fBF">
             <objects>
-                <viewController title="stranica zakaza(data&amp;vremya)" id="BOP-Ju-zTu" sceneMemberID="viewController">
+                <viewController title="Страница заказа(дата)" id="BOP-Ju-zTu" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MGP-gV-pdl"/>
                         <viewControllerLayoutGuide type="bottom" id="RPw-Vk-T0y"/>
@@ -93,12 +93,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SvH-eS-N4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1818" y="431"/>
+            <point key="canvasLocation" x="1838" y="51"/>
         </scene>
-        <!--kontaktnaya informaciya-->
+        <!--Страница заказа(время)-->
+        <scene sceneID="Kkf-0Z-VbP">
+            <objects>
+                <viewController title="Страница заказа(время)" id="9Nh-RX-HWr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lDn-jl-05f"/>
+                        <viewControllerLayoutGuide type="bottom" id="gH1-su-KNy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4No-sw-Ykx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0eE-j7-Mv6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1838" y="701"/>
+        </scene>
+        <!--Контактная информация-->
         <scene sceneID="bEr-2P-LT2">
             <objects>
-                <viewController title="kontaktnaya informaciya" id="tCM-rY-zR6" sceneMemberID="viewController">
+                <viewController title="Контактная информация" id="tCM-rY-zR6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AUt-pI-tGD"/>
                         <viewControllerLayoutGuide type="bottom" id="9lU-5y-pX5"/>
@@ -111,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SaH-q2-gle" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2460" y="431"/>
+            <point key="canvasLocation" x="2480" y="51"/>
         </scene>
     </scenes>
 </document>
