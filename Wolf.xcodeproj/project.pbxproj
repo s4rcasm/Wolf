@@ -12,6 +12,8 @@
 		4DE48D271CD39B0600F6B21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE48D251CD39B0600F6B21C /* Main.storyboard */; };
 		4DE48D291CD39B0600F6B21C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE48D281CD39B0600F6B21C /* Assets.xcassets */; };
 		4DE48D2C1CD39B0600F6B21C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE48D2A1CD39B0600F6B21C /* LaunchScreen.storyboard */; };
+		B33706911CD3DB47005712DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B337068F1CD3DB47005712DC /* Assets.xcassets */; };
+		B33706921CD3DB47005712DC /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B33706901CD3DB47005712DC /* Base.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4DE48D281CD39B0600F6B21C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DE48D2B1CD39B0600F6B21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DE48D2D1CD39B0600F6B21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B337068F1CD3DB47005712DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B33706901CD3DB47005712DC /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		4DE48D151CD39B0600F6B21C = {
 			isa = PBXGroup;
 			children = (
+				B337068F1CD3DB47005712DC /* Assets.xcassets */,
+				B33706901CD3DB47005712DC /* Base.lproj */,
 				4DE48D201CD39B0600F6B21C /* Wolf */,
 				4DE48D1F1CD39B0600F6B21C /* Products */,
 			);
@@ -124,6 +130,8 @@
 			files = (
 				4DE48D2C1CD39B0600F6B21C /* LaunchScreen.storyboard in Resources */,
 				4DE48D291CD39B0600F6B21C /* Assets.xcassets in Resources */,
+				B33706921CD3DB47005712DC /* Base.lproj in Resources */,
+				B33706911CD3DB47005712DC /* Assets.xcassets in Resources */,
 				4DE48D271CD39B0600F6B21C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +263,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Wolf.Wolf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -266,6 +275,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Wolf.Wolf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -288,6 +298,7 @@
 				4DE48D321CD39B0600F6B21C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
